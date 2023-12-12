@@ -3,6 +3,7 @@
 - **MNMP/** contains a Java implementation of the MNMP algorithm dedicated to the 1-identifiability.
 - **exact_models/** contains python interface to run the problem on *Gurobi* solver and *cpmpy*.
 - **instances/** contains various Monitor Placement instances
+- **maxsat_solvers** contains the source code of the maxSAT solvers (only NuWLS-c for now)
 
 Running a monitor placement instance on Gurobi, OR-Tools
 --------------------------------------------------------
