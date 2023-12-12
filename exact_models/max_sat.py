@@ -186,7 +186,7 @@ def solve_maxsat(goal = "cover",instance_name="clause", timelimit=1800, nodes_nb
     # file where the clauses are written
     clause_path = os.path.join(os.path.dirname(__file__), f"tmp/clauses/{instance_name}_{goal}.tmp")
     # path to the solver
-    executable_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "sat_solver/NuWLS-c-2023/bin")
+    executable_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "maxsat_solvers/NuWLS-c-2023/bin")
 
     start_time = time.perf_counter()
     # solve the problem
