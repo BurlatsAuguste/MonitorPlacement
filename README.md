@@ -47,7 +47,7 @@ Running a monitor placement on MNMP
 ```
 cd MNMP
 mvn install
-java -jar target MonitoringProblem-1.0.jar <ARGS>
+java -jar target/MonitoringProblem-1.0.jar <ARGS>
 ```
 where ``<ARGS>`` are the argument passed to the model.
 
